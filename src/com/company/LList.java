@@ -8,4 +8,9 @@ public class LList {
         this.value = value;
         this.next = next;
     }
+
+    @Override
+    public String toString() {
+        return value + " ";
+    }
 }
