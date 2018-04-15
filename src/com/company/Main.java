@@ -10,39 +10,41 @@ public class Main {
         Random rand = new Random();
 
         // Linked List Test
-        LList n1 = new LList(10);
-        LList n2 = new LList(20);
-        LList n3 = new LList(30);
-
-        LList n4 = new LList(n1.value);
-        n4.next = n2;
-        LList n5 = new LList(n2.value);
-        n5.next = n3;
-        LList n6 = new LList(n3.value);
-        n6.next = n1;
-        output1Node("n4", n4);
-        output2Nodes("n4", n4, "n5", n5);
-        output3Nodes("n4", n4, "n5", n5, "n6", n6);
-        System.out.println();
-        output1Node("n1", n1);
-        n1.add(20);
-        output1Node("n1", n1);
-        System.out.println();
-        for (int i = 0; i < 10; i++) {
-            n2.add(i);
-        }
-        output1Node("n2", n2);
-        System.out.println();
-        System.out.println();
-        System.out.println();
+//        LList n1 = new LList(10);
+//        LList n2 = new LList(20);
+//        LList n3 = new LList(30);
+//
+//        LList n4 = new LList(n1.value);
+//        n4.next = n2;
+//        LList n5 = new LList(n2.value);
+//        n5.next = n3;
+//        LList n6 = new LList(n3.value);
+//        n6.next = n1;
+//        output1Node("n4", n4);
+//        output2Nodes("n4", n4, "n5", n5);
+//        output3Nodes("n4", n4, "n5", n5, "n6", n6);
+//        System.out.println();
+//        output1Node("n1", n1);
+//        n1.add(20);
+//        output1Node("n1", n1);
+//        System.out.println();
+//        for (int i = 0; i < 10; i++) {
+//            n2.add(i);
+//        }
+//        output1Node("n2", n2);
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
 
 
         // TODO: Milestone 1
         // Create Cars with occupants in HOV Lane
+
+        Vehicle car = new Vehicle();
+        System.out.println("Car: " + car);
         int numCars = 10;
-        int numOccupants = 4;
-        LList hovLane = new LList(rand.nextInt(numOccupants) + 1);
-        addRandomNumToLList(numOccupants, numCars, hovLane);
+        LList hovLane = new LList(new Vehicle());
+        addCarToLList(numCars, hovLane);
         output1Node("HOV Lane: ", hovLane);
         System.out.println();
 
@@ -75,12 +77,20 @@ public class Main {
         output1Node(s3, n3);
     }
 
-    public static void addRandomNumToLList(int num, int timesToAdd, LList head) {
-        Random rand = new Random();
-        int randNum = rand.nextInt(num) + 1;
+//    public static void addRandomNumToLList(int num, int timesToAdd, LList head) {
+//        Random rand = new Random();
+//        int randNum = rand.nextInt(num) + 1;
+//        for (int i = 0; i < timesToAdd; i++) {
+//            head.add(randNum);
+//            randNum = rand.nextInt(num) + 1;
+//
+//        }
+//    }
+
+    public static void addCarToLList(int timesToAdd, LList head) {
         for (int i = 0; i < timesToAdd; i++) {
-            head.add(randNum);
-            randNum = rand.nextInt(num) + 1;
+            head.add(new Vehicle());
+
 
         }
     }

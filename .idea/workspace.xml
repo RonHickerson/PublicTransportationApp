@@ -8,6 +8,7 @@
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/editor.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/git.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/jdk.table.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/laf.xml" afterDir="false" />
@@ -15,12 +16,18 @@
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/stubIndex.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/toStringTemplates.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Vehicle.java" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TM.blf" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TMContainer00000000000000000001.regtrans-ms" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TMContainer00000000000000000002.regtrans-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicTransportationApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PublicTransportationApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -34,11 +41,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="526">
+              <caret line="90" column="41" lean-forward="true" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +67,8 @@
       <file leaf-file-name="LList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="731">
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -70,6 +91,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/LList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -182,21 +204,36 @@
       <option name="project" value="LOCAL" />
       <updated>1523742674655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed GitHub errors&#10;Created and tested test Linked List">
+      <created>1523752935914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523752935914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished Milestone 1.1">
+      <created>1523758660810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523758660810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3299389" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.32892057" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32892057" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.32892057" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -224,7 +261,8 @@
     <MESSAGE value="Create Linked List" />
     <MESSAGE value="Fixed Github errors&#10;Created Test Linked List" />
     <MESSAGE value="Fixed GitHub errors&#10;Created and tested test Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed GitHub errors&#10;Created and tested test Linked List" />
+    <MESSAGE value="Finished Milestone 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Milestone 1.1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -265,15 +303,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="731">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="526">
+          <caret line="90" column="41" lean-forward="true" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
