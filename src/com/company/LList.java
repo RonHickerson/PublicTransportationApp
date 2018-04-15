@@ -58,7 +58,13 @@ public class LList {
         nodeCount++;
         return true;
     }
-
+//    TODO
+//    public int indexOf() {
+//        int index = 0;
+//
+//
+//
+//    }
 
     @Override
     public String toString() {

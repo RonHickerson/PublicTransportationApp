@@ -39,25 +39,19 @@ public class Main {
 
         // TODO: Milestone 1
         // Create Cars with occupants in HOV Lane
-
-        Vehicle car = new Vehicle();
-        System.out.println("Car: " + car);
         int numCars = 10;
         LList hovLane = new LList(new Vehicle());
         addCarToLList(numCars, hovLane);
-        output1Node("HOV Lane: ", hovLane);
+        output1Node("HOV Lane: \n", hovLane);
         System.out.println();
 
         // (1) How many cars are in the HOV Lane
         System.out.println("Cars in HOV Lane: " + hovLane.nodeCount);
 
-        // (2) How many cars have only 1 occupant;
+        // TODO: (2) What are the IDs of cars have only 1 occupant.
 
 
-
-
-
-
+        // TODO: (3) How many [C] cars are in the HOV lane? [C] is a user-provided car color.
 
 
     }
@@ -90,9 +84,24 @@ public class Main {
     public static void addCarToLList(int timesToAdd, LList head) {
         for (int i = 0; i < timesToAdd; i++) {
             head.add(new Vehicle());
-
-
         }
     }
+//      TODO
+//    public static int findIndexOfCarsWithXOccupants(LList lane, int numOccupants) {
+//        if (lane == null)
+//            return lane.index;
+//        else if (lane.car.occupant == numOccupants)
+//            return  1 + countXOccupants(lane.next, numOccupants);
+//        else
+//            return countXOccupants(lane.next, numOccupants);
+//    }
 
+    public static int countXOccupants(LList lane, int numOccupants) {
+        if (lane == null)
+            return 0;
+        else if (lane.car.occupant == numOccupants)
+            return 1 + countXOccupants(lane.next, numOccupants);
+        else
+            return countXOccupants(lane.next, numOccupants);
+    }
 }

@@ -35,7 +35,7 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Occupants: " + occupant + "\nColor: " + color + "\n";
+        return "Occupants: " + occupant + " Color: " + color + "\n";
     }
 }
 
