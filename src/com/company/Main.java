@@ -1,10 +1,13 @@
 package com.company;
 
-public class Main {
+import java.util.Random;
 
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World");
         System.out.println();
+
+        Random rand = new Random();
 
         // Linked List Test
         LList n1 = new LList(10);
@@ -21,9 +24,36 @@ public class Main {
         output2Nodes("n4", n4, "n5", n5);
         output3Nodes("n4", n4, "n5", n5, "n6", n6);
         System.out.println();
+        output1Node("n1", n1);
+        n1.add(20);
+        output1Node("n1", n1);
+        System.out.println();
+        for (int i = 0; i < 10; i++) {
+            n2.add(i);
+        }
+        output1Node("n2", n2);
+        System.out.println();
+        System.out.println();
         System.out.println();
 
+
         // TODO: Milestone 1
+        // Create Cars with occupants in HOV Lane
+        int numCars = 10;
+        int numOccupants = 4;
+        LList hovLane = new LList(rand.nextInt(numOccupants) + 1);
+        addRandomNumToLList(numOccupants, numCars, hovLane);
+        output1Node("HOV Lane: ", hovLane);
+        System.out.println();
+
+        // (1) How many cars are in the HOV Lane
+        System.out.println("Cars in HOV Lane: " + hovLane.nodeCount);
+
+        // (2) How many cars have only 1 occupant;
+
+
+
+
 
 
 
@@ -44,4 +74,15 @@ public class Main {
         output1Node(s2, n2);
         output1Node(s3, n3);
     }
+
+    public static void addRandomNumToLList(int num, int timesToAdd, LList head) {
+        Random rand = new Random();
+        int randNum = rand.nextInt(num) + 1;
+        for (int i = 0; i < timesToAdd; i++) {
+            head.add(randNum);
+            randNum = rand.nextInt(num) + 1;
+
+        }
+    }
+
 }
