@@ -1,259 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974d5c82-66aa-4c45-87cf-3c36d1a80d8d" name="Default" comment="Hello, World">
-      <change afterPath="$APPLICATION_CONFIG_DIR$/c.kdbx" afterDir="false" />
+    <list default="true" id="974d5c82-66aa-4c45-87cf-3c36d1a80d8d" name="Default" comment="Fixed GitHub errors&#10;Created and tested test Linked List">
       <change afterPath="$APPLICATION_CONFIG_DIR$/codestyles/Default.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/disabled_plugins.txt" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/inspection/Default.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/IntelliLang.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/cachedDictionary.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/colors.scheme.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/debugger.renderers.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/code.style.schemes.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/debugger.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/extensionsRootType.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/find.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/editor.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/git.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/gradle.run.settings.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/jdk.table.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/keymap.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/laf.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/options.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/parameter.hints.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/path.macros.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/project.default.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/stubIndex.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/toStringTemplates.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/ui.lnf.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/updates.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/vcs.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/web-browsers.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/window.state.xml" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/pdb.pwd" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/port" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/port.lock" afterDir="false" />
-      <change afterPath="$USER_HOME$/.android/adb_usb.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/.android/adbkey" afterDir="false" />
-      <change afterPath="$USER_HOME$/.android/adbkey.pub" afterDir="false" />
-      <change afterPath="$USER_HOME$/.bash_history" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/colorrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/controllerrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/dockrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/gimprc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/gtkrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/menurc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/parasiterc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/pluginrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/print-page-setup" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/print-settings" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/sessionrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/tags.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/templaterc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/themerc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/toolrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gimp-2.8/unitrc" afterDir="false" />
-      <change afterPath="$USER_HOME$/.gitconfig" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Audacity.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Bruteforce Save Data.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Calypso.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Closers.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Cuphead.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/DRAGON BALL XENOVERSE 2.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Depth.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Discord.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/DroidCam Client.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/DroidCamApp.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Dying Light.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Enter the Gungeon.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/GTA San Andreas V1.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Game Character Hub Portfolio Edition.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Game Character Hub.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/GitHub Desktop.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Glyph.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Halo Custom Edition.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Hand Simulator.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Haydee.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Horizon.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Killing Floor 2.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Left 4 Dead 2.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/MEGAsync.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/RPG Maker MV.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/RPG Maker VX Ace.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Resident Evil  biohazard HD REMASTER.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Resident Evil 5  Biohazard 5.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Resident Evil Operation Raccoon City.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Rivals of Aether.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/SCP Secret Laboratory.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/San Andreas ModLoader.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/ScpServer.zip" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Source Filmmaker.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Star Wars - Battlefront II.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Star Wars Republic Commando.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Starbound.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Start Tor Browser.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Stick Fight The Game.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Tom Clancy's Rainbow Six Siege.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Uplay.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/Warhammer End Times - Vermintide.url" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/WiiU_USB_Helper.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/WinDirStat.lnk" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/desktop.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/nativelog.txt" afterDir="false" />
-      <change afterPath="$USER_HOME$/Desktop/osu!.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroceryShoppingList" afterDir="false" />
-      <change afterPath="$USER_HOME$/Favorites/desktop.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" afterDir="false" />
-      <change afterPath="$USER_HOME$/NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/PUTTY.RND" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/$Arachnia_F.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/$Dhaos_F.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/$Lady_Fighter_F.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/4x4_battler_template.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Akira.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonFaceBest.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonFacePixelated.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonFacePixelated2.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonFull.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonNoFace.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/AvalonTheGame.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Bush.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Catsfor Ravyn.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/DDugsNp.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/DL_Sprite_Vanitas_Icon_KHBBS.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/DL_Sprite_Vanitas_Icon_KHBBS_small.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Dark Carnival.mp4" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Ds3 Wallpaper.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Gant_Breakdown_3.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Garo.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Hard Rain.mp4" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Horifying Abomination.PNG" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Ishmale2.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/JimSterlingDance.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/KillerCrocKFC.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/KillerCrocMemePotential.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/LauraLeblanc.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/LauraLeblancNonWeeaboo.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/League Pic.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ND3-Dhaos.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Roy.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/SageFace.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Sample_Akira.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Sample_Roy.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ShimaFace.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ShimaWTF.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ShitpostQuestionMark.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Tax Notification.pdf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Thoe face.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Thoe.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ThoeHead.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Thumbs.db" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/Untitled.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/VXAce_FaceSetTemp.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/abesimpsonwalkout.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/alucarddos.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/alucarddoslarge.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/alucarddossmall.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/areyousmokingyet.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/arggie.webp" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/aura_effects_1.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/badselfie.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/beingcheesy.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/bios.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/bodyframe.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/brave frontier sprite sheet.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/brunoishandsome.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/buttonswithpicturesoffoodonthem.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/buttsecksnazi.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/coconutcreampies.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/desktop.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/dhaos_spritesheet.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/drunkjoe.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/dudewtfman.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/dylan.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ePMENTo.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/expanddongonthego.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/finish what we started.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/frogcorner_clean_r.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/galamothfisted.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/gangstalicious.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/gold_rush.xcf" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/idlwtig.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ifihadone.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/immeenlaugh.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/immeenwalk.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ishmale.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/joe'sforehead.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/katzdrinkingtea.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/kendrick.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/l4d2nomercy.mp4" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/l4d2part1.mp4" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/lifepoint].gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/loomisheadwithguidelines.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/mapsource.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/mapsourceradiant.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/marinajoycesubcount.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael2.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael3.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael4.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael5.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael6.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/michael7.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/milesedgeworth.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/mods.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/niggayougay.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/pokemonglobaloffensive.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/reinhardthorse.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/ryoma.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/shizel_past_spritesheet_full.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/shizel_spritesheet.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/shizel_spritesheet.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/slash_effect_002.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/spankthemonkey.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/t4WGsAn.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/teleban.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe2.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe3.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe4.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe5.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe6.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe7.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoe8.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/thoedontgivafuk.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/tumblr_npddg5VOGk1qd4q8ao1_500.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/tumblr_o0c6jhUmbr1sipm1io1_500.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/tumblr_ozpzuaAMTg1wyoq56o1_500.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/uT46M2x.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/wassup.gif" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/whip.mp3" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/wryseye.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Pictures/wrysiespieces.jpg" afterDir="false" />
-      <change afterPath="$USER_HOME$/Saved Games/desktop.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/Searches/Everywhere.search-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/Searches/Indexed Locations.search-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/Searches/desktop.ini" afterDir="false" />
-      <change afterPath="$USER_HOME$/Videos/Thumbs.db" afterDir="false" />
-      <change afterPath="$USER_HOME$/Videos/desktop.ini" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TM.blf" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TMContainer00000000000000000001.regtrans-ms" afterDir="false" />
       <change afterPath="$USER_HOME$/ntuser.dat{3fdd0657-35e6-11e8-9515-d050994d63b4}.TMContainer00000000000000000002.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{5db40302-77db-11e6-b0e3-d050994d63b4}.TM.blf" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{5db40302-77db-11e6-b0e3-d050994d63b4}.TMContainer00000000000000000001.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{5db40302-77db-11e6-b0e3-d050994d63b4}.TMContainer00000000000000000002.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{84a2e5e3-a706-11e7-a33a-d050994d63b4}.TM.blf" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{84a2e5e3-a706-11e7-a33a-d050994d63b4}.TMContainer00000000000000000001.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.dat{84a2e5e3-a706-11e7-a33a-d050994d63b4}.TMContainer00000000000000000002.regtrans-ms" afterDir="false" />
-      <change afterPath="$USER_HOME$/ntuser.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -266,20 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="425">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -320,6 +88,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,21 +187,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" visible="true" weight="0.3299389" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3299389" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295099" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32892057" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -446,7 +214,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -455,14 +222,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello, World" />
     <MESSAGE value="Create Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Linked List" />
+    <MESSAGE value="Fixed Github errors&#10;Created Test Linked List" />
+    <MESSAGE value="Fixed GitHub errors&#10;Created and tested test Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed GitHub errors&#10;Created and tested test Linked List" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -477,6 +253,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>

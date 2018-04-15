@@ -4,6 +4,11 @@ public class LList {
     public int value;
     public LList next;
 
+    public LList(int value) {
+        this.value = value;
+        this.next = null;
+    }
+
     public LList(int value, LList next) {
         this.value = value;
         this.next = next;
@@ -11,6 +16,14 @@ public class LList {
 
     @Override
     public String toString() {
-        return value + " ";
+        final StringBuilder sb = new StringBuilder("");
+        LList temp = this;
+        while (temp.next != null) {
+            sb.append(temp.value).append("-");
+            temp = temp.next;
+        }
+        sb.append(temp.value);
+        return sb.toString();
     }
 }
+
