@@ -56,5 +56,6 @@ public class Vehicle {
     public String toString() {
         return "Occupants: " + occupant + " Color: " + color + " ID: " + id + "\n";
     }
+
 }
 

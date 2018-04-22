@@ -11,7 +11,7 @@ public class Main {
         Random rand = new Random();
 
 
-        // TODO: Milestone 1
+        //  Milestone 1
         // Create Cars with o
         LList lane = new LList(10);
 //        int maxOccupants = 4;
@@ -23,13 +23,18 @@ public class Main {
         // (1) How many cars are in the HOV Lane
         output1Node("HOV Lane: \n", lane);
         System.out.println();
+        System.out.println("Cars in HOV Lane: " + lane.size(lane));
 
 
         // (2) What are the IDs of cars have only 1 occupant.
-        System.out.println("Cars in HOV Lane: " + lane.countXOccupants(lane, 1));
+        System.out.println("Ids of cars with 1 occupant: " + lane.idsOfOccupantX(1));
+
 
         // (3) How many [C] cars are in the HOV lane? [C] is a user-provided car color.
-        System.out.println("Amount of cars with specific color: " + lane.countColorCars(lane, "White"));
+        System.out.println("Amount of cars with specific color: " + lane.countColorCars("White"));
+
+        // Milestone 2
+        LList lane2 = new LList(5);
 
 
     }

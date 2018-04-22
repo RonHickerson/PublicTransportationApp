@@ -2,41 +2,29 @@ package com.company;
 
 import jdk.nashorn.internal.ir.WhileNode;
 
+import java.util.ArrayList;
+
 public class LList {
     //  public int value;
     private Vehicle car;
-    private int nodeCount;
     private LList next;
 
-//    public LList() {
-//        this.value = 0;
-//        this.next = null;
-//        nodeCount = 1;
-//
-//    }
+    public LList() {
+        this.next = null;
+        this.car = new Vehicle();
+    }
 
-//    public LList(int value) {
-//        this.value = value;
-//        this.next = null;
-//        nodeCount = 1;
-//    }
+
 
     public LList(Vehicle car) {
         this.car = car;
         this.next = null;
-        nodeCount = 1;
     }
 
-//    public LList(int value, LList next) {
-//        this.value = value;
-//        this.next = next;
-//        nodeCount = 1;
-//    }
 
-    private LList(Vehicle car, LList next) {
+    public LList(Vehicle car, LList next) {
         this.car = car;
         this.next = next;
-        nodeCount = 1;
     }
 
     public LList(int size) {
@@ -67,13 +55,7 @@ public class LList {
         this.car = car;
     }
 
-    public int getNodeCount() {
-        return nodeCount;
-    }
 
-    public void setNodeCount(int nodeCount) {
-        this.nodeCount = nodeCount;
-    }
 
     public LList getNext() {
         return next;
@@ -90,7 +72,6 @@ public class LList {
             temp = temp.next;
         }
         temp.next = end;
-        nodeCount++;
         return true;
     }
 //    TODO
@@ -114,26 +95,47 @@ public class LList {
 
     }
 
-    public int countXOccupants(LList lane, int numOccupants) {
+    public int countXOccupants(int numOccupants) {
+        LList temp = this;
         int count = 0;
-        while (lane != null) {
-            if (lane.car.getOccupant() == numOccupants) {
+        while (temp != null) {
+            if (temp.car.getOccupant() == numOccupants) {
                 count++;
             }
-            lane = lane.next;
+            temp = temp.next;
         }
         return count;
     }
 
-    public int countColorCars(LList lane, String color) {
+    public ArrayList<Integer> idsOfOccupantX(int numOccupants) {
+        LList temp = this;
+        ArrayList<Integer> ids = new ArrayList<>();
+        while (temp != null) {
+            if (temp.car.getOccupant() == numOccupants) {
+                ids.add(this.car.getId());
+            }
+            temp = temp.next;
+        }
+        return ids;
+    }
+
+    public int countColorCars(String color) {
         int count = 0;
-        while (lane != null) {
-            if (lane.car.getColor().equals(color)) {
+        LList temp = this;
+        while (temp != null) {
+            if (temp.car.getColor().equals(color)) {
                 count++;
             }
-            lane = lane.next;
+            temp = temp.next;
         }
         return count;
+    }
+
+    public int size(LList head) {
+        if (head == null) {
+            return 0;
+        } else
+            return 1 + size(head.next);
     }
 
 }
