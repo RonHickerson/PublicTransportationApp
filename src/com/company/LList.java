@@ -112,7 +112,7 @@ public class LList {
         ArrayList<Integer> ids = new ArrayList<>();
         while (temp != null) {
             if (temp.car.getOccupant() == numOccupants) {
-                ids.add(this.car.getId());
+                ids.add(temp.car.getId());
             }
             temp = temp.next;
         }
